@@ -9,4 +9,5 @@
 * [DPOS](https://bitshares.org/technology/delegated-proof-of-stake-consensus/)
 * [BFT](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance)
 * [PBFT](http://pmg.csail.mit.edu/papers/osdi99.pdf)
+* [Paxos](https://en.wikipedia.org/wiki/Paxos_(computer_science))
 * [RAFT](https://ramcloud.atlassian.net/wiki/download/attachments/6586375/raft.pdf)
