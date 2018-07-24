@@ -11,3 +11,4 @@
 * [PBFT](http://pmg.csail.mit.edu/papers/osdi99.pdf)
 * [Paxos](https://en.wikipedia.org/wiki/Paxos_(computer_science))
 * [RAFT](https://ramcloud.atlassian.net/wiki/download/attachments/6586375/raft.pdf)
+* [The Honey Badger of BFT Protocols](https://eprint.iacr.org/2016/199.pdf)
