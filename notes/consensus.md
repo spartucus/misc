@@ -2,6 +2,7 @@
 
 ## blockchains or systems
 * [Tendermint](https://tendermint.com/)
+* [Ouroboros](https://whycardano.com/#scalability) from Cardano
 
 ## algorithm
 * [POW](https://en.wikipedia.org/wiki/Proof-of-work_system)
