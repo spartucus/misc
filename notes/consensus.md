@@ -13,4 +13,4 @@
 * [Paxos](https://en.wikipedia.org/wiki/Paxos_(computer_science))
 * [RAFT](https://ramcloud.atlassian.net/wiki/download/attachments/6586375/raft.pdf)
 * [The Honey Badger of BFT Protocols](https://eprint.iacr.org/2016/199.pdf)
-* [Non-Interactive Proofs of Proof-of-Work](https://eprint.iacr.org/2017/963.pdf) used in Cardano
+* [Non-Interactive Proofs of Proof-of-Work](https://eprint.iacr.org/2017/963.pdf) (aka. KMZ) used in Cardano, and it's how Cardano implement sidechains.
