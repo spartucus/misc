@@ -9,3 +9,4 @@
 1. [Sharding github](https://github.com/ethereum/sharding)
 2. [Sharding FAQs](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
 3. [Great article on reddit that Vbuterin post](https://www.reddit.com/r/ethereum/comments/8g1q55/vitalik_teases_sharding_release_on_twitter/dy85pq0/)
+4. [以太坊扩容问题与分片（sharding）解决方案](http://www.8btc.com/sharding-finality) from 8btc.com
