@@ -7,6 +7,7 @@
 4. [以太坊扩容问题与分片（sharding）解决方案](http://www.8btc.com/sharding-finality) from 8btc.com
 5. [Sharding introduction R&D compendium](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium)
 6. [Sharding roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
+7. [Ethereum Sharding General Introduction](https://docs.google.com/presentation/d/1mdmmgQlRFUvznq1jdmRwkwEyQB0YON5yAg4ArxtanE4/edit#slide=id.p4) (Greate intro btw :))
 
 ## Issue tracking
 1. [P2P networking](https://medium.com/@icebearhww/ethereum-sharding-workshop-in-taipei-a44c0db8b8d9) from "Recap: Ethereum Sharding Workshop in Taipei" in mid march 2018.
