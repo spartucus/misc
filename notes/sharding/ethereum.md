@@ -11,7 +11,7 @@
 
 ## Issue tracking
 1. [P2P networking](https://medium.com/@icebearhww/ethereum-sharding-workshop-in-taipei-a44c0db8b8d9) from "Recap: Ethereum Sharding Workshop in Taipei" in mid march 2018.
-> For sharding, collator shuffling requires the ability to jump between the P2P networks quickly, but the current Ethereum P2P network doesn’t support this. Thus, a new sharding network topology will be an important topic for implementation.
+    > For sharding, collator shuffling requires the ability to jump between the P2P networks quickly, but the current Ethereum P2P network doesn’t support this. Thus, a new sharding network topology will be an important topic for implementation.
 
 ## Questions
 1. Are collator and validator same?
