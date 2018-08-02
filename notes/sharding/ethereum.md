@@ -14,7 +14,15 @@
     > For sharding, collator shuffling requires the ability to jump between the P2P networks quickly, but the current Ethereum P2P network doesn’t support this. Thus, a new sharding network topology will be an important topic for implementation.
 
 ## Questions
-1. Are collator and validator same?
+1. Are collator and validator same?<br>
+-- from what Vitalik Buterin [said](https://docs.google.com/presentation/d/1mGI3yyq7bq-RT3TyGFXN8bkiFdWdArM2yQzo-FMUjSY/edit#slide=id.g313dc9dd54_0_0), yes. And for three roles of proposer, collator, executor, qoute:
+    > Proposers propose “collations” (think: shard blocks)<br>
+    Collators approve collations and combine them into a chain<br>
+    Executors calculate state<br>
+    --<br>
+    Proposers are shard-specific<br>
+    Collators are randomly shuffled between shards<br>
+    Executors are shard-specific (or possibly reshuffled infrequently)
 2. What if evil validator continue submit same one shard collation, deos LOOKAHEAD_PERIODS smaller than confirmed number, and that's the reason?
 3. Proposer and executor earn gas fee, and does Collator earn gas fee too?
 4. SMC(sharding manager contract) add collation to main chain (or root chain), is it or how? And if it is, what if one evil man call SMC in a infinite loop and make SMC busy so others can't do anything?<br>
