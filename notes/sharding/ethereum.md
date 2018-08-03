@@ -23,7 +23,7 @@
     Proposers are shard-specific<br>
     Collators are randomly shuffled between shards<br>
     Executors are shard-specific (or possibly reshuffled infrequently)
-2. What if evil validator continue submit same one shard collation, deos LOOKAHEAD_PERIODS smaller than confirmed number, and that's the reason?
+2. What if evil validator continue submit same one shard collation, deos `LOOKAHEAD_PERIODS` smaller than confirmed number, and that's the reason?
 3. Proposer and executor earn gas fee, and does Collator earn gas fee too?
 4. SMC(sharding manager contract) add collation to main chain (or root chain), is it or how? And if it is, what if one evil man call SMC in a infinite loop and make SMC busy so others can't do anything?<br>
 -- nope, strictly speaking, it's not by SMC, it's [commitee](https://github.com/ethereum/wiki/wiki/Sharding-FAQs#what-might-a-basic-design-of-a-sharded-blockchain-look-like).
