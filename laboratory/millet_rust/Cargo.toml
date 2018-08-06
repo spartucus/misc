@@ -1,0 +1,6 @@
+[package]
+name = "millet_rust"
+version = "0.1.0"
+authors = ["spartucus <niubob@163.com>"]
+
+[dependencies]
