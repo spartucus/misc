@@ -17,3 +17,4 @@
 
 ## resources
 * [Consensus Compare: Casper vs. Tendermint](https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae) from cosmos.network. [中文翻译](https://www.jianshu.com/p/df8200207d14) 转自许莉的简书。
+* [Vitalik allegations against Ouroboros...](https://www.reddit.com/r/cardano/comments/92r3si/vitalik_allegations_against_ouroboros/) in reddit
