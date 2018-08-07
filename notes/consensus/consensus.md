@@ -17,4 +17,5 @@
 
 ## resources
 * [Consensus Compare: Casper vs. Tendermint](https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae) from cosmos.network. [中文翻译](https://www.jianshu.com/p/df8200207d14) 转自许莉的简书。
+* [ELI30 differences between Casper and Ouroboros?](https://www.reddit.com/r/ethereum/comments/92f1u0/eli30_differences_between_casper_and_ouroboros/) a question in reddit
 * [Vitalik allegations against Ouroboros...](https://www.reddit.com/r/cardano/comments/92r3si/vitalik_allegations_against_ouroboros/) in reddit
