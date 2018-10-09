@@ -1,5 +1,12 @@
 # -*- coding: UTF-8 -*-
 
+# This script is used for query winner of candylottery.
+
+# first, enum all winner table
+# then, find all winner
+# then, enum parter table, query winner's balance
+# record it if balance is not zero
+
 import urllib.request
 import json
 
@@ -31,11 +38,6 @@ parter_values = {
 headers = {'Content-Type': 'application/json'}
 
 unrefund = []
-
-# first, enum all winner table
-# then, find all winner
-# then, enum parter table, query winner's balance
-# record it if balance is not zero
 
 def make_request(v):
     request = urllib.request.Request(url=url, headers=headers, data=json.dumps(v).encode(encoding='UTF8'))
