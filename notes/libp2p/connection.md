@@ -222,3 +222,7 @@ const (
 		UserAgent:    cfg.UserAgent,
 	})
 ```
+
+
+
+但上面是v0.2.2的版本，貌似在v0.2.4引入了`gater   connmgr.ConnectionGater`，将`Filter`去掉了。
