@@ -203,3 +203,22 @@ const (
 
 还有`AddFilter`和`Remove`的接口，都是以ip地址为唯一标识的。
 
+`swarm`增加`Filter`的函数是`AddAddrFilter`，通过将一个`multiaddr`添加，解析其`IPNet`，加入Deny 的Filters中。
+
+这么回头看的话，在`libp2p/go-libp2p/config/config.go`中`NewNode`时，就已经有对`swarm`的filters的设置了。--！
+
+```go
+	// TODO: Make the swarm implementation configurable.
+	swrm := swarm.NewSwarm(ctx, pid, cfg.Peerstore, cfg.Reporter)
+	if cfg.Filters != nil {
+		swrm.Filters = cfg.Filters
+	}
+
+	h, err := bhost.NewHost(ctx, swrm, &bhost.HostOpts{
+		ConnManager:  cfg.ConnManager,
+		AddrsFactory: cfg.AddrsFactory,
+		NATManager:   cfg.NATManager,
+		EnablePing:   !cfg.DisablePing,
+		UserAgent:    cfg.UserAgent,
+	})
+```
