@@ -185,3 +185,21 @@ func main() {
 
 那`swarm`的`DialPeer`处理，在哪呢？在`libp2p/go-libp2p-swarm/swarm_dial.go`中，它会首先判断，现在要连接的那个目标节点，是不是已经在已连接的`connections`里，若有，直接返回，若没有，则尝试连接。实际的连接在这个源文件的`dial`函数中，先去找找，本地的节点是否有私钥，若有，后续连接使用私钥进行加密，若没有，则连接不加密。
 
+
+
+`filterKnownUndialables` 返回过滤后的可去连接节点，然后使用`dialAddrs`函数去连接。
+
+讲到filter，貌似有个`libp2p/go-maddr-filter/filter.go`，里面有对filter的一些定义。增加一个filter，filter匹配时，其动作有以下几种：
+
+```go
+const (
+	ActionNone Action = iota // zero value.
+	ActionAccept
+	ActionDeny
+)
+```
+
+即啥都不做、接受、拒绝。
+
+还有`AddFilter`和`Remove`的接口，都是以ip地址为唯一标识的。
+
