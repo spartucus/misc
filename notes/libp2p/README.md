@@ -69,10 +69,7 @@
 
     更准确一些，是使用libp2p自己实现的TLS，证书做了一些裁剪，如：去掉了“subjectUniqueId”和“issuerUniqueId”，还有其他别的部分。libp2p的TLS证书，包含多个“MUST” 和“MUST NOT”，以区别于普通的TLS证书。
 
-
     除了自己实现的TLS之外，还有secio（https://github.com/libp2p/go-libp2p-secio），也用来加密传输，不过这个协议（或者库）在最新的libp2p中被标记为“不推荐使用”，替代者是Noise（https://github.com/libp2p/specs/tree/master/noise）。
-
-  
   ```
 
 * 连接控制
